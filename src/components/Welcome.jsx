@@ -12,7 +12,7 @@ import Layout from "./Layout";
 function Welcome() {
   return (
     <Layout>
-      <Grid templateColumns="1.5fr 1fr" alignItems="center" gap="50px">
+      <Grid templateColumns={{base: "1fr", md: "1.5fr 1fr"}} alignItems="center" gap="50px">
         <GridItem fontSize="lg">
           <Text>
             Indulge in a symphony of flavors at our artisanal bakery. Welcome to

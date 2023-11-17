@@ -6,7 +6,7 @@ export function About() {
     <Layout bg="#C1C3C0" color="black">
       <HStack justifyContent="space-between">
         <Heading fontSize="xxx-large">About Us</Heading>
-        <Image src="images/about.png" w="300px" />
+        <Image src="images/about.png" w="300px" display={{base: "none", md: "block"}} />
       </HStack>
       <VStack mt="50px" gap="20px" fontSize="lg">
         <Text>

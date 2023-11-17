@@ -7,11 +7,11 @@ export const ContactUs = () => {
 
       <VStack justifyContent="flex-start" alignItems="flex-start" gap="30px">
         <Heading>Contact Us</Heading>
-        <HStack w="100%" gap="50px">
+        <HStack w="100%" gap={{base: "10px", md: "50px"}}>
           <Input placeholder="Full Name"  />
           <Input placeholder="Phone" />
         </HStack>
-        <HStack w="100%" gap="50px">
+        <HStack w="100%" gap={{base: "10px", md: "50px"}}>
           <Input placeholder="Address" />
           <Input placeholder="Email" />
         </HStack>

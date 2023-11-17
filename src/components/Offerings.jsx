@@ -10,7 +10,7 @@ const Offerings = () => {
       <Heading as="h1" size="xl" mb="10">
         Our Offerings
       </Heading>
-      <Grid templateColumns={"1fr 1fr 1fr"} templateRows="1fr 1fr" gap="50px">
+      <Grid templateColumns={{base: "1fr 1fr", md:"1fr 1fr 1fr"}} templateRows={{base: "1fr 1fr 1fr", md: "1fr 1fr"}} gap="50px">
         {productsList.map((product, idx) => {
           return (
             <GridItem>

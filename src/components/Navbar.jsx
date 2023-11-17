@@ -2,7 +2,7 @@ import { HStack, Box, Text, Image, Link } from "@chakra-ui/react";
 
 const Navbar = () => {
   return (
-    <Box w="full">
+    <Box w="full" display={{base: "none", md: "block"}}>
       <HStack
         justifyContent="space-between"
         alignContent="center"
